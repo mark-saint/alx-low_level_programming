@@ -1,7 +1,11 @@
 #include <stdio.h>
 
-/*
+/**
 * main - Entry point
+*
+*Description: 'prints sth'
+*
+*Return: (0)
 */
 
 int main(void)
