@@ -12,14 +12,15 @@
 int main(void)
 {
 int n;
+char strn[20];
+int last_digit;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-char strn[20];
 sprintf(strn, "%d", n);
 
-int last_digit = strn[strlen(strn) - 1] - '0';
+last_digit = strn[strlen(strn) - 1] - '0';
 
 if (n < 0)
 last_digit *= -1;
