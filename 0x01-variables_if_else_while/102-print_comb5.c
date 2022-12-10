@@ -25,8 +25,11 @@ putchar(' ');
 putchar('0' + (b / 10) % 10);
 putchar('0' + b % 10);
 
+if (a != 98)
+{
 putchar(',');
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
