@@ -17,5 +17,5 @@ y *= -1;
 }
 
 _putchar('0' + y);
-return y;
+return (y);
 }
