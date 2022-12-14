@@ -17,7 +17,7 @@ for (count2 = 1; count2 <= 10; count2++)
 {
 _putchar(',');
 _putchar(' ');
-product = count1 * count2
+product = count1 * count2;
 
 if (product < 10)
 {
@@ -31,4 +31,6 @@ _putchar('0' + product / 10);
 _putchar('0' + product %10);
 }
 
-_putchar('\n')
+_putchar('\n');
+}
+}
