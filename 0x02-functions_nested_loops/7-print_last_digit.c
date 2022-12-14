@@ -3,6 +3,8 @@
 /**
 *print_last_digit- sth
 *Description: sth
+*@x: sth
+*Return: sth
 */
 
 int print_last_digit(int x)
