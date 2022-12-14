@@ -9,11 +9,11 @@ void times_table(void)
 {
 int count1 ,count2, product;
 
-for (count1 = 0; count1 <= 10; count1++)
+for (count1 = 0; count1 < 10; count1++)
 {
 _putchar('0');
 
-for (count2 = 1; count2 <= 10; count2++)
+for (count2 = 1; count2 < 10; count2++)
 {
 _putchar(',');
 _putchar(' ');
