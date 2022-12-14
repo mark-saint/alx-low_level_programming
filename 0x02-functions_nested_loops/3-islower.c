@@ -4,6 +4,7 @@
 * _islower -sth
 *@c: sth
 *Description: sth
+*Return: sth
 */
 
 int _islower(int c)
