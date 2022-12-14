@@ -3,6 +3,8 @@
 /**
 * _isalpha -sth
 *@c:sth
+*Description: sth
+*Return: sth
 */
 
 int _isalpha(int c)
