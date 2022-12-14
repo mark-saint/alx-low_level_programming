@@ -10,8 +10,8 @@ float total;
 while (sum_ <= 4000000)
 {
 sum_ = a + b;
-//if (sum_ >4000000)
-//break;
+
+
 
 if ((sum_ % 2) == 0)
 {
