@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main- sth
  * Description: sth
  *Return (0);
