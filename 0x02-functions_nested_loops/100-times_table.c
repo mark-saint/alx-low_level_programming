@@ -21,7 +21,7 @@ for (count2 = 1; count2 <= n; count2++)
 _putchar(',');
 _putchar(' ');
 
-product = count1 * count2
+product = count1 * count2;
 
 if (product <= 99)
 {
