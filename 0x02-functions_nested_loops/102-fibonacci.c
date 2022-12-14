@@ -8,12 +8,12 @@
 int main(void)
 {
 int count;
-int a, b, sum_;
+unsigned long  a = 0, b = 1, sum_;
 
 for (count = 0; count <50; count ++)
 {
 sum_ = a + b;
-printf("%d", sum_);
+printf("%ld", sum_);
 
 a = b;
 b = sum_;
