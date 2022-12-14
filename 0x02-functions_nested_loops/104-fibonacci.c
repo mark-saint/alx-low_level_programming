@@ -3,7 +3,7 @@
 /*
  * main- sth
  * Description: sth
- *
+ *Return (0);
  */
 
 
@@ -26,5 +26,5 @@ int main(void)
         b = sum_;
     }
     putchar('\n');
-
+    Return (0);
 }
