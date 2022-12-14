@@ -6,12 +6,10 @@
  *Return (0);
  */
 
-
 int main(void)
 {
 unsigned long a = 0, b = 1, sum_;
 int count;
-
 for (count = 0; count <= 98; count++)
 {
 sum_ = a + b;
@@ -21,7 +19,6 @@ if (count != 98)
 putchar(',');
 putchar(' ');
 }
-
 a = b;
 b = sum_;
 }
