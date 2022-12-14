@@ -3,6 +3,8 @@
 /**
 *print_sign- sth
 *@n: sth
+*Description: sth
+*Return: sth
 */
 
 int print_sign(int n)
