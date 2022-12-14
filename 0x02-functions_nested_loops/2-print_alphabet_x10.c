@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
-* print_alphabet_x10 :sth
-*Descrition:sth
+* print_alphabet_x10 -sth
+* Descrition: sth
+* Retutn: sth
 */
 
 void print_alphabet_x10(void)
 {
 int count;
 char x;
-for (count=0; count < 10; count++)
+for (count = 0; count < 10; count++)
 {
-for (x = 'a'; x<='z'; x++)
+for (x = 'a'; x <= 'z'; x++)
 {
 _putchar(x);
 }
