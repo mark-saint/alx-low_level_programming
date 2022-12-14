@@ -12,7 +12,9 @@ char x;
 for (count=0; count < 10; count++)
 {
 for (x = 'a'; x<='z'; x++)
+{
 _putchar(x);
 }
 _putchar('\n');
+}
 }
