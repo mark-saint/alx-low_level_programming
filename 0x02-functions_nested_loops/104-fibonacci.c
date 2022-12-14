@@ -10,7 +10,7 @@ int main(void)
 {
 unsigned long a = 0, b = 1, sum_;
 int count;
-for (count = 0; count <= 98; count++)
+for (count = 0; count <= 100; count++)
 {
 sum_ = a + b;
 printf("%lu", sum_);
