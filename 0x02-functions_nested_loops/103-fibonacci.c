@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-
+/**
+*main- sth
+*Descrition: sth
+*Return: 0
+*/
 
 int main(void)
 {
