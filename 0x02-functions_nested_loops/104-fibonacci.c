@@ -26,5 +26,5 @@ int main(void)
         b = sum_;
     }
     putchar('\n');
-    Return (0);
+    return (0);
 }
