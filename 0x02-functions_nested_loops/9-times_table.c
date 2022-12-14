@@ -7,7 +7,7 @@
 
 void times_table(void)
 {
-int count1 ,count2, product;
+int count1, count2, product;
 
 for (count1 = 0; count1 < 10; count1++)
 {
@@ -28,7 +28,7 @@ else
 _putchar('0' + product / 10);
 }
 
-_putchar('0' + product %10);
+_putchar('0' + product % 10);
 }
 
 _putchar('\n');
