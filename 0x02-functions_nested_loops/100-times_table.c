@@ -32,7 +32,7 @@ if (product <= 9)
 _putchar(' ');
 }
 
-if (product >=100)
+if (product >= 100)
 {
 _putchar(product / 100 + '0');
 _putchar((product / 10) % 10 + '0');
