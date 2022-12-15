@@ -8,7 +8,7 @@
 
 int main(void)
 {
-unsigned long a = 0, b = 1, sum_;
+unsigned long a = 0, b = 1;
 unsigned long high_a, low_a, high_b, low_b, high_sum, low_sum;
 int count;
 high_a = a % 10000000000;
