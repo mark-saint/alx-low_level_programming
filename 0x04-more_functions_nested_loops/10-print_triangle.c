@@ -11,18 +11,23 @@ int i;
 int a;
 int b;
 
+if (size > 0)
+{
 for (i = size; i > 0; i--)
 {
-for (a = 0; a < i; a++)
+for (a = 1; a < i; a++)
 {
 putchar(' ');
 }
 
-for (b = 0; b <= size - a ; b++)
+for (b = 0; b <= size - a; b++)
 {
 putchar('#');
 }
 putchar('\n');
-
 }
+}
+else
+putchar('\n');
+
 }
