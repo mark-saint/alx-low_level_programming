@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* _isalpha -sth
-* @c: sth
+* _isupper - sth fire
 * Description: sth
-* Return: sth
+* @c: sth
+* Return: (0)
 */
 
 int _isupper(int c)
