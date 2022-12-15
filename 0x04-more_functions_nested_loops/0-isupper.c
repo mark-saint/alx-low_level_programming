@@ -2,15 +2,15 @@
 
 /**
 * _isalpha -sth
- * :@c: sth
- * Description: sth
- * Return: sth
+* :@c: sth
+* Description: sth
+* Return: sth
 */
 
-int _isalpha(int c)
-{
-if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+int _isupper(int c) {
+if ((c >= 'A' && c <= 'Z')) {
 return (1);
-else
+} else {
 return (0);
+}
 }
