@@ -21,16 +21,16 @@ for (count = 0; count < 98; count++)
 high_sum = high_a + high_b;
 
 low_sum = low_a + low_b;
-if (high_sum>=10000000000)
+if (high_sum >= 10000000000)
 {
-low_sum+=1;
-high_sum%=10000000000;
+low_sum += 1;
+high_sum %= 10000000000;
 }
 if (low_sum != 0)
 printf("%lu", low_sum);
 printf("%lu", high_sum);
 
-if (count != 97 )
+if (count != 97)
 printf(", ");
 
 high_a = high_b;
