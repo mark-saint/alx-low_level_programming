@@ -15,7 +15,8 @@ int count;
 for (count = 0; count < 92; count++)
 {
     sum_ = a + b;
-    printf("%lu ", sum_);
+    printf("%lu, ", sum_);
+
     a = b;
     b = sum_;
 }
