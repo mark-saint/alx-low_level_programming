@@ -2,7 +2,8 @@
 
 /**
 * main- sth
-*Ffire
+ * Description: sth
+*Return: (0)
 */
 
 int main(void)
@@ -10,7 +11,7 @@ int main(void)
 int count;
 unsigned long  a = 0, b = 1, sum_;
 
-for (count = 0; count <50; count ++)
+for (count = 0; count < 50; count++)
 {
 sum_ = a + b;
 printf("%ld", sum_);
