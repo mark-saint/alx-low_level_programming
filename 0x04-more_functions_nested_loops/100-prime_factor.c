@@ -22,7 +22,7 @@ num /= i;
 else
 i++;
 }
-printf("%lu ",keep);
+printf("%lu",keep);
 putchar('\n');
 return (0);
 }
