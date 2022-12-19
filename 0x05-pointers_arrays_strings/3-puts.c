@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * _puts - funtion
+ * @str: param
+ * Description: sth
+ */
 void _puts(char *str)
 {
     int a;
