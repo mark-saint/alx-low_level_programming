@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * puts2 - sth
- * @str: param
- * Description: sth
- */
+* puts2 - sth
+* @str: param
+* Description: sth
+*/
 void puts2(char *str)
 {
 int a;
@@ -15,4 +15,5 @@ if (a % 2 == 0)
 _putchar(str[a]);
 a++;
 }
+_putchar('\n');
 }
