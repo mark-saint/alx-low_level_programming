@@ -13,7 +13,7 @@ unsigned int b = 0;
 int a = 1, count = 0, to_break = 0;
 
 
-while (1)
+while (s[count])
 {
 if (s[count] == '-')
 a *= -1;
