@@ -15,7 +15,7 @@ int a = 1, count = 0, to_break = 0;
 
 while (s[count])
 {
-if (s[count] == '0')
+if (s[count] == 45)
 a *= -1;
 
 while (s[count] >= 48 && s[count] <= 57)
