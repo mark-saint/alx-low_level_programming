@@ -28,12 +28,12 @@ return (a);
 void puts_half(char *str)
 {
 int len, a;
-len = _strlen(str) - 1;
+len = _strlen(str);
 
 if ((len % 2) == 0)
-a = len / 2;
+a = (len / 2) - 1;
 else
-a = (len - 1) / 2;
+a = ((len - 1)) / 2 - 1;
 
 while (str[a] != '\0')
 {
