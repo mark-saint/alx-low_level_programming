@@ -35,7 +35,7 @@ while (len >= 0)
 c = s[a];
 s[a] = s[len];
 s[len] = c;
-if (a > len)
+if (a >= len)
 break;
 
 len--;
