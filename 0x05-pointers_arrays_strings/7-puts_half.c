@@ -33,7 +33,7 @@ len = _strlen(str);
 if ((len % 2) == 0)
 a = len / 2;
 else
-a = (len - 1) / 2;
+a = (len + 1) / 2;
 
 while (str[a] != '\0')
 {
