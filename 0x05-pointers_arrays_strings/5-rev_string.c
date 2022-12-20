@@ -30,13 +30,11 @@ int a = 0;
 char c;
 len = _strlen(s) - 1;
 
-while (len >= 0)
+while (len >= 0 && a < len)
 {
 c = s[a];
 s[a] = s[len];
 s[len] = c;
-if (a >= len)
-break;
 
 len--;
 a++;
