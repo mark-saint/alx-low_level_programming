@@ -31,7 +31,7 @@ int len, a;
 len = _strlen(str);
 
 if ((len % 2) == 0)
-a = len / 2 - 1 ;
+a = len / 2;
 else
 a = (len - 1) / 2;
 
