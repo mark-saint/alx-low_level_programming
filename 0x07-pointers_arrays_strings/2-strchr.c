@@ -12,9 +12,9 @@ while (s++)
 {
 if (*s == c)
 return (s);
-else
-return (NULL);
 }
+if (c == '\0')
+return (s);
 
-
+return (NULL);
 }
