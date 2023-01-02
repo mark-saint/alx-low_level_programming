@@ -10,9 +10,9 @@ char *_strchr(char *s, char c)
 {
 int i;
 i = 0;
-while (*s)
+while (s++)
 {
-if (*s[i] == c)
+if (s[i] == c)
 return (s);
 
 i++;
