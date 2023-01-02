@@ -15,9 +15,7 @@ if (*s == c)
 return (s);
 
 else
-    continue
-
-i++;
+    continue;
 }
 
 return (NULL);
