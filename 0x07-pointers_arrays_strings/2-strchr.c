@@ -14,8 +14,6 @@ while (s++)
 if (*s == c)
 return (s);
 
-else
-    continue;
 }
 
 return (NULL);
