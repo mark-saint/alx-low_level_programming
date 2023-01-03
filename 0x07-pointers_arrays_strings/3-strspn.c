@@ -18,7 +18,6 @@ if (s[a] != 32)
 {
 while (accept[b] != '\0')
 {
-printf("%c", accept[b]);
 if (s[a] == accept[b])
 counter++;
 b++;
