@@ -16,10 +16,8 @@ int i = 1;
 
 if (argc < 3)
 {
-printf("0\n");
-return (0);
+printf("%d\n",0);
 }
-
 else
 {
 while (i < argc)
@@ -38,5 +36,5 @@ i++;
 }
 printf("%d\n", sum);
 }
-return (sum);
+return (0);
 }
