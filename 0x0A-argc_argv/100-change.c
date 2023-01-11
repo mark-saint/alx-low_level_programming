@@ -20,6 +20,11 @@ return (1);
 }
 a = atoi(argv[1]);
 
+if (a < 0)
+{
+printf("0");
+return (0);
+}
 if (a % 25 >= 0)
 {
 b += a / 25;
@@ -36,7 +41,6 @@ if (a % 5 >= 0)
 b += a / 5;
 a = a % 5;
 }
-
 if (a % 2 >= 0)
 {
 b += a / 2;
@@ -46,7 +50,6 @@ if (a % 1 >= 0)
 {
 b += a / 1;
 }
-
 printf("%d\n", b);
 return (0);
 }
