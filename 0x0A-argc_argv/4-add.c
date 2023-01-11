@@ -8,6 +8,7 @@
 * Description: read
 * Return: (0);
 */
+
 int main(int argc, char **argv)
 {
 int sum = 0;
@@ -16,6 +17,7 @@ int i = 1;
 if (argc < 3)
 {
 printf("0\n");
+return (0);
 }
 
 else
@@ -36,5 +38,5 @@ i++;
 }
 printf("%d\n", sum);
 }
-return (0);
+return (sum);
 }
