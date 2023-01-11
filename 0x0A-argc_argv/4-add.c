@@ -15,7 +15,7 @@ int i = 1;
 
 if (argc == 1)
 {
-printf("%d\n",0);
+printf("0\n");
 }
 
 else
@@ -36,7 +36,5 @@ i++;
 }
 printf("%d\n", sum);
 }
-
-
 return (0);
 }
