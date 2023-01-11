@@ -15,7 +15,7 @@ int i = 1;
 
 if (argc == 1)
 {
-printf("0\n");
+printf("%d\n",0);
 }
 
 else
