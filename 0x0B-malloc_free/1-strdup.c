@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
-* strdup - duplicates a str
+* _strdup - duplicates a str
+* Description: sth
 * @str: param
-*
 * Return: ptr to str
 */
 char *_strdup(char *str)
