@@ -21,7 +21,7 @@ if (a == NULL)
 return (NULL);
 
 i = 0;
-while (i < nmemb)
+while (i < nmemb * size)
 {
 a[i] = 0;
 i++;
