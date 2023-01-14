@@ -39,6 +39,6 @@ for (i = 0; i < b; i++)
 {
 new[i + a] = s2[i];
 }
-new[a + b] = '\0';
+new[a + b + 1] = '\0';
 return (new);
 }
