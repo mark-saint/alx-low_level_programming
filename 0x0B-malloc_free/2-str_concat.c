@@ -33,12 +33,12 @@ b++;
 new = malloc(sizeof(*new) * (a + b));
 
 *new = *s1;
-printf("%s",s1);
+printf("%s", s1);
 while (i < b)
 {
 new[i] = s2[i];
 i++;
 }
-*new = '\0';
+new[i + 1] = '\0';
 return (new);
 }
