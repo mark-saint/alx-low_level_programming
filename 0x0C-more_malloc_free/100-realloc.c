@@ -26,7 +26,7 @@ if (new_size == old_size)
 return (ptr);
 }
 
-if (new_size == 0)
+if (new_size == 0 && p != NULL)
 {
 free(ptr);
 return (NULL);
@@ -37,6 +37,8 @@ if (new_ptr == NULL)
 {
 return (NULL);
 }
+if (new_size > old_size)
+new_size = old_size;
 for (i = 0; i < new_size; i++)
 {
 new_ptr[i] = p[i];
