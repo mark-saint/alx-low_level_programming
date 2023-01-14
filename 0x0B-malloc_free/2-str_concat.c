@@ -29,6 +29,8 @@ b++;
 }
 m = a + b + 1;
 new = malloc(sizeof(*new) * m);
+if (new == NULL)
+return (NULL);
 
 for (i = 0; i < a; i++)
 {
