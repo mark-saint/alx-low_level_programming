@@ -29,8 +29,7 @@ while (s2[b])
 b++;
 }
 
-printf("%d\n", a);
-printf("%d\n", b);
+
 new = malloc(sizeof(*new) * (a + b + 1));
 
 *new = *s1;
