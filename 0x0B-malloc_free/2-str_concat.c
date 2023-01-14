@@ -22,15 +22,16 @@ while (s1[a])
 {
 a++;
 }
-a++;
+
 
 while (s2[b])
 {
 b++;
 }
-b++;
 
-new = malloc(sizeof(*new) * (a + b));
+printf("%d\n", a);
+printf("%d\n", b);
+new = malloc(sizeof(*new) * (a + b + 1));
 
 *new = *s1;
 printf("%s", s1);
