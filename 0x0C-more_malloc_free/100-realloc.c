@@ -41,7 +41,7 @@ for (i = 0; i < new_size; i++)
 {
 new_ptr[i] = p[i];
 }
-free(p);
+free(ptr);
 
 return (new_ptr);
 
