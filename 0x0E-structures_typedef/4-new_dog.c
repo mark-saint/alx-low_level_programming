@@ -24,6 +24,8 @@ for (x = 0; name[x]; x++)
 {
 ;
 }
+x++;
+
 d->name = malloc(sizeof(*name) * x);
 d->age = age;
 
@@ -31,6 +33,8 @@ for (y = 0; owner[y]; y++)
 {
 ;
 }
+y++;
+
 d->owner = malloc(sizeof(*owner) * y);
 
 for (z = 0; z < x; z++)
