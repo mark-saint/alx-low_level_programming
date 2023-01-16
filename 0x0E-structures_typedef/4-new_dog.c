@@ -13,9 +13,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 unsigned int x, y, z;
 dog_t *d;
 
-d = malloc(sizeof(dog_t));
+
 if (d == NULL)
 return (NULL);
+
+d = malloc(sizeof(dog_t));
 
 for (x = 0; name[x]; x++)
 {
