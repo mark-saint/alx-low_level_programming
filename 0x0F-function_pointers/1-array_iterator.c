@@ -12,7 +12,8 @@ size_t i;
 
 if (array != NULL && action != NULL)
 {
-for (i = 0; i < size; i++) {
+for (i = 0; i < size; i++)
+{
 action(*(array + i));
 }
 }
