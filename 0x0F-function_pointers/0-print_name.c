@@ -5,6 +5,7 @@
 * @name: param
 * @f: fn pointer
  * Description: sth
+ * Return: void
 */
 void print_name(char *name, void (*f)(char *))
 {
