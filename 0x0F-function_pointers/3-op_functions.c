@@ -38,6 +38,7 @@ return (a * b);
 * @b: param
 * Return: sth
 */
+
 int op_div(int a, int b)
 {
 if (b == 0)
@@ -47,6 +48,7 @@ exit(100)
 }
 return (a / b);
 }
+
 /**
 * op_mod - fn
 * @a: param
