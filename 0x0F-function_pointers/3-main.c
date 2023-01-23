@@ -13,7 +13,8 @@ int (*f)(int, int);
 
 if (argc > 4)
 {
-return (-1);
+printf("Error\n");
+exit(98);
 }
 x = atoi(argv[1]);
 y = atoi(argv[3]);
