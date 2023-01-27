@@ -24,7 +24,7 @@ new = malloc(sizeof(list_t));
 new->str = strdup(str);
 if (new == NULL)
 {
-    return (NULL);
+return (NULL);
 }
 new->len = i;
 
