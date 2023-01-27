@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-* add_node: fn
+* add_node - fn
 * @head: previous element
 * @str: str
 * Description: sth
