@@ -21,11 +21,19 @@ while (str[i])
 i++;
 
 new = malloc(sizeof(list_t));
-new->str = strdup(str);
+
 if (new == NULL)
 {
 return (NULL);
 }
+new->str = strdup(str);
+
+if (new->str == NULL)
+{
+free(new);
+return (NULL);
+}
+
 new->len = i;
 
 new->next = *head;
